@@ -1,0 +1,23 @@
+.form {
+    width: 100%;
+    text-align: center;
+    position: absolute; bottom: 0px;
+}
+
+.label_and_input {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.form svg, .form p {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.form svg {
+    position: relative; bottom: 2px;
+}
+
+.form button {
+    margin: 8px 4px;
+}

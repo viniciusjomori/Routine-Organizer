@@ -1,0 +1,42 @@
+.day-tasks {
+    width: 13%;
+    height: 60vh;
+    display:inline-block;
+    vertical-align:top;
+    white-space: normal;
+    margin: 0 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.day-tasks h2 {
+    text-align: center;
+}
+
+hr {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.day-tasks p {
+    text-align: left;
+    margin: 0 8px;
+}
+
+.day-tasks p:hover {
+    color: blue;
+    text-decoration: underline;
+    cursor:pointer
+}
+
+.day-tasks p:active {
+    color: purple;
+}
+
+.day-tasks p:before {
+    content: "●   "
+}
+
+.day-tasks svg {
+    position:relative;bottom:2px;
+}
